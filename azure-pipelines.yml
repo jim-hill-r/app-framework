@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'vs2017-win2016'
 
 variables:
   solution: '**/*.sln'
@@ -18,7 +18,7 @@ steps:
 - task: DotNetCoreInstaller@0
   displayName: 'Installing .NET Core SDK...'
   inputs:
-    version: 3.0.100-preview-010184
+    version: 3.0.100-preview5-19227-01
     
 - task: NuGetToolInstaller@0
 
