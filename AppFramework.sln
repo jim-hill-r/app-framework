@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JimHillR.AppFramework", "src\jimhillr.appframework\JimHillR.AppFramework.csproj", "{772813A7-488C-4552-A5E5-1EF7491CF4A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JHR.Test.AppFramework", "JHR.Test.AppFramework\JHR.Test.AppFramework.csproj", "{F6844BC7-73B2-47BD-8851-F13AC40B0360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{772813A7-488C-4552-A5E5-1EF7491CF4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772813A7-488C-4552-A5E5-1EF7491CF4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{772813A7-488C-4552-A5E5-1EF7491CF4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6844BC7-73B2-47BD-8851-F13AC40B0360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6844BC7-73B2-47BD-8851-F13AC40B0360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6844BC7-73B2-47BD-8851-F13AC40B0360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6844BC7-73B2-47BD-8851-F13AC40B0360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
